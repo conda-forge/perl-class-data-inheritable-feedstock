@@ -1,6 +1,6 @@
 {% set name = "perl-class-data-inheritable" %}
-{% set version = "0.09" %}
-{% set sha256 = "44088d6e90712e187b8a5b050ca5b1c70efe2baa32ae123e9bd8f59f29f06e4d" %}
+{% set version = "0.10" %}
+{% set sha256 = "aa1ae68a611357b7bfd9a2f64907cc196ddd6d047cae64ef9d0ad099d98ae54a" %}
 
 package:
   name: {{ name }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: true   # [win]
+  skip: true  # [win]
   number: 0
   run_exports:
     weak:
